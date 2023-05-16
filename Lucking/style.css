@@ -1,0 +1,48 @@
+/* Conteúdo Geral */
+
+
+*{
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+}
+
+/* root-values */
+:root{
+    --container-color: #172317;
+    --second-color: rgba(255, 252, 127);
+    --background-color:#172317;
+    --bg-color:#ffffff;
+}
+
+::selection{
+    color: var(--bg-color);
+    background: var(--second-color)
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 3rem 0 2rem;
+}
+
+.container{
+    max-width: 1068px;
+    margin: auto;
+
+}
+
+/* Conteúdo da Header */
