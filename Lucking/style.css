@@ -113,7 +113,7 @@ header.shadow .logo{
 }
 
 .home-text{
-     color: var(--bg-color);
+     color: var(--text-color);
      text-align: center;
 }
 
@@ -121,7 +121,64 @@ header.shadow .logo{
     font-size: 56px;
 }
 
+.home-title span{
+    color: #FFD700;
+}
+
 .home-subtitle{
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 400;
+}
+
+.about {
+    position: relative;
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about .contentBox {
+    max-width: 50%;
+    width: 50%;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.titleText {
+    font-weight: 600;
+    color: #111111;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.title-text {
+    color: #111111;
+    font-size: 16px;
+}
+
+.about .imgBox{
+   position: relative;
+   min-width: 50%;
+   width: 50%;
+   min-height: 500px;
+}
+
+.button2 {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: #ffffff;
+    border: 1px solid  #111111;
+    color: #333333;
+    text-decoration: none;
+    transition: 0.5;
+}
+
+.button2:hover{
+    background: var(--second-color);
+    border: none;
+    color: #ffffff;
 }
