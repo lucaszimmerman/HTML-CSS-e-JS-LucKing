@@ -426,3 +426,84 @@ footer p{
     color: #FFD700;
 }
 
+@media (max-width: 1060px) {
+    .container{
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .home-text{
+         width: 100%;
+    }
+}
+
+/* A regra @media (max-width: 1060px) é um media query que especifica um conjunto de estilos CSS a serem aplicados quando a largura da tela for igual ou inferior a 1060 pixels. */
+
+@media (max-width: 396px){
+    .home-title{
+        font-size: 2rem;
+    }
+
+    .home-subtitle{
+        font-size: 0.9rem;
+    }
+
+    .home{
+        min-height: 300px;
+    }
+
+    .post-box{
+        padding: 10px;
+    }
+
+    .header-title{
+        font-size: 1.4rem;
+    }
+
+    .header-img{
+        height: 240px;
+    }
+
+    .post-header{
+        height: 335px;
+    }
+
+    .header-img{
+        height: 340px;
+    }
+}
+
+/* Footer media */
+
+@media (max-width: 991px){
+    footer{
+        padding: 40px;
+        font-size: 20px;
+    }
+
+    footer .footer-container{
+        flex-direction: column;
+    }
+
+    footer .footer-container .section{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .footer-container .section-about{
+        width: 100% !important;
+    }
+
+    footer .footer-container .links{
+        width: 100%;
+    }
+
+    footer .footer-container .contact{
+        width: 100%;
+    }
+}
+
+/* Aqui se trata da responsividade no footer  */
+
+
+
