@@ -40,3 +40,20 @@ O projeto é estruturado da seguinte forma:
 
 Sinta-se à vontade para entrar em contato caso tenha alguma dúvida ou sugestão.
 
+# Demonstração
+
+Header
+
+![Header LucKing](Lucking/assets/tela1.png)
+
+About
+
+![Seção sobre LucKing](Lucking/assets/tela2.png)
+
+Posts
+
+![Seção de Postagens](Lucking/assets/tela3.png)
+
+Rodapé
+
+![Rodapé de LucKing](Lucking/assets/tela4.png)
