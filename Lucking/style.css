@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    scroll-padding-top: 32px;
+    scroll-padding-top: 2rem;
     box-sizing: border-box;
 }
 
@@ -15,6 +15,7 @@
     --container-color: #071922;
     --second-color: #17408B;
     --third-color: #C9082A;
+    --forth-color: #FFD700;
     --text-color:#071922;
     --bg-color:#ffffff;
 }
@@ -53,7 +54,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    /* height: 90px; */
+    height: 90px; 
     z-index: 200;
 }
 
@@ -67,6 +68,11 @@ header.shadow{
 
 header.shadow .logo{
      color: var(--text-color);
+}
+
+header.shadow .login{
+    color: var(--bg-color);
+    background-color: var(--second-color);
 }
 
 .nav{
@@ -83,48 +89,50 @@ header.shadow .logo{
 }
 
 .logo span{
-    color: #FFD700;
+    color: var(--forth-color);
 }
+
 
 .login{
     padding: 8px 14px;
     text-transform: uppercase;
     font-weight: 500;
     border-radius: 4px;
-    background: var(--second-color);
-    color: var(--bg-color);
+    background: var(--bg-color);
+    color: var(--container-color);
 }
 
 .login:hover{
-    background: #FFD700;
+    background: var(--forth-color);
     transition: .5s;
 }
 
 .home{
     width: 100%;
-    min-height: 440px;
-    background: url(/Lucking/assets/Background1.jpg);
+    min-height: 500px;
+    background-color: var(--second-color) ;
     background-size: cover;
+    background-repeat: no-repeat;
     display: grid;
     justify-content: center;
     align-items: center;
 }
 
 .home-text{
-     color: var(--text-color);
+     color: var(--bg-color);
      text-align: center;
 }
 
 .home-title{
-    font-size: 56px;
+    font-size: 3.5rem;
 }
 
 .home-title span{
-    color: #FFD700;
+    color: var(--forth-color);
 }
 
 .home-subtitle{
-    font-size: 22px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -149,7 +157,7 @@ Esta regra substituirá todos os estilos que já foram aplicados no elemento ref
 .titleText {
     font-weight: 600;
     color: #111111;
-    font-size: 32px;
+    font-size: 2rem;
     margin-bottom: 10px;
 }
 
@@ -189,12 +197,13 @@ Esta regra substituirá todos os estilos que já foram aplicados no elemento ref
    display: flex;
    justify-content: center;
    align-items: center;
-   column-gap: 20px;
+   column-gap: 1.5rem;
    margin-top: 5rem !important;
+   color: var(--bg-color);
 }
 
 .filter-item{
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 500;
     cursor: pointer;
 }
@@ -216,14 +225,14 @@ Esta regra substituirá todos os estilos que já foram aplicados no elemento ref
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     justify-content: center;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .post-box{
     background: var(--bg-color);
     box-shadow: 0 4px  14px  hsl(35deg  25%  15% / 10%);
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .post-img{
@@ -231,19 +240,19 @@ Esta regra substituirá todos os estilos que já foram aplicados no elemento ref
     height: 200px;
     object-fit: cover;
     object-position: center;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .category{
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 500;
     text-transform: uppercase;
-    color: var(--second-color);
+    color: var(--third-color);
 }
 
 /* The -webkit-line-clamp CSS property allows limiting of the contents of a block container to the specified number of lines.*/
 .post-title{
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--text-color);
     display: -webkit-box; 
@@ -261,8 +270,8 @@ Esta regra substituirá todos os estilos que já foram aplicados no elemento ref
 }
 
 .post-description{
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
     margin: 5px 0 10px;
     display: -webkit-box; 
     -webkit-line-clamp: 3;
@@ -286,7 +295,7 @@ Esta regra substituirá todos os estilos que já foram aplicados no elemento ref
 }
 
 .profile-name{
-    font-size: 13px;
+    font-size: .8rem;
     font-weight: 500;
 }
 
@@ -363,7 +372,7 @@ footer p{
 }
 
 .social li a:hover{
-    background: #FFD700 ;
+    background: var(--forth-color);
 }
 
 .social i a .bx{
@@ -389,7 +398,7 @@ footer p{
 }
 
 .links ul li a:hover{
-    color: #FFD700;
+    color: var(--forth-color);
 }
 
 .footer-container .contact{
@@ -423,7 +432,7 @@ footer p{
 }
 
 .contact .info li a:hover{
-    color: #FFD700;
+    color: var(--forth-color);
 }
 
 @media (max-width: 1060px) {
@@ -438,6 +447,70 @@ footer p{
 }
 
 /* A regra @media (max-width: 1060px) é um media query que especifica um conjunto de estilos CSS a serem aplicados quando a largura da tela for igual ou inferior a 1060 pixels. */
+@media (max-width: 768px){
+    .nav{
+        padding: 10px 0;
+    }
+
+    section{
+        padding: 2rem 0 !important;
+    }
+
+    .header-content{
+        margin-top: 3rem !important;
+    }
+
+    .home{
+        min-height: 380px;
+    }
+
+    .home-title{
+        font-size: 3rem;
+    }
+
+    .header-title{
+        font-size: 2rem;
+    }
+
+    .header-img{
+        height: 370px;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about .contentBox{
+        min-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .about .contentBox,
+    .about .imgBox{
+        min-width: 100%;
+        width: 100%;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .about .imgBox{
+        min-height: 250px;
+    }
+
+    .button2{
+        margin-bottom: 30px;
+    }
+
+    .post-header{
+        height: 435px;
+    }
+
+    .post-header{
+        margin-top: 9rem !important;
+    }
+}
 
 @media (max-width: 396px){
     .home-title{
@@ -466,6 +539,20 @@ footer p{
 
     .post-header{
         height: 335px;
+    }
+
+    .header-img{
+        height: 340px;
+    }
+}
+
+@media (max-width: 570px){
+    .post-header{
+        height: 390px;
+    }
+
+    .header-title{
+        width: 100%;
     }
 
     .header-img{
