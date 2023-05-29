@@ -1,6 +1,10 @@
+![Logo de LucKing](Lucking/assets/1.png)
+
 # LucKing - Blog sobre basquete
 
-LucKing é um blog pessoal OnePage que aborda diversos aspectos relacionados ao basquete. O blog inclui postagens sobre jogos, trocas, notícias, transmissões e jogadores. O Blog também possui um rodapé com infomações adicionais como Contato e Sobre
+LucKing é um blog pessoal OnePage que aborda diversos aspectos relacionados ao basquete. O blog inclui postagens sobre jogos, trocas, notícias, transmissões e jogadores. O Blog também possui um rodapé com infomações adicionais como Contato e Sobre.
+
+Ainda pretendo implementar o blog futuramente, criando páginas para cada postagem e uma barra de navegação para navegar entre as postagens.
 
 ## Tecnologias utilizadas
 
