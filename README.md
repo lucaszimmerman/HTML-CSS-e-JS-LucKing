@@ -31,8 +31,8 @@ O projeto é estruturado da seguinte forma:
 
 ## Contato
 
-- Autor: [Lucas Zimmerman]
-- Email: [lucaszimmermants@gmail.com]
+- Autor: Lucas Zimmerman
+- Email: lucaszimmermants@gmail.com
 
 Sinta-se à vontade para entrar em contato caso tenha alguma dúvida ou sugestão.
 
